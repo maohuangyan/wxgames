@@ -1,0 +1,131 @@
+<!--index.wxml-->
+<view class='games-box'>
+  <view class='games-list pd-lr-b-15'>
+    <view class='games-header flex-between pd-lr-7'>
+      <view class='flex-items-c'>
+        <icon class="iconfont icon-shoubing"></icon>
+        <text class='play red tit bold'>热血时光</text>
+      </view>
+      <view class='flex-items-c'>
+        <text class='more'>更多好玩</text>
+        <icon class='iconfont icon-gengduo'></icon>
+      </view>
+    </view>
+    <view class='games flex-between pd-t-15'>
+      <block wx:for="{{games}}">
+        <view class='game flex-direction-c'>
+          <image></image>
+          <view>{{item.name}}</view>
+          <text>{{item.people}}万人在玩</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class='games-box'>
+  <view class='games-list pd-tb-lr-15'>
+    <view class='games-header flex-between pd-lr-7'>
+      <view class='flex-items-c'>
+        <icon class="iconfont icon-good"></icon>
+        <text class='play tit bold'>最新推荐</text>
+      </view>
+      <view class='flex-items-c'>
+        <text class='more'>更多好玩</text>
+        <icon class='iconfont icon-gengduo'></icon>
+      </view>
+    </view>
+    <view class='games flex-between pd-t-15'>
+      <block wx:for="{{games}}">
+        <view class='game flex-direction-c'>
+          <image></image>
+          <view>{{item.name}}</view>
+          <text>{{item.people}}万人在玩</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class='advs pd-tb-lr-15'>
+  <view class='flex-between'>
+    <block wx:for="{{advs}}">
+      <view class='adv flex-direction-c'>
+        <image></image>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class='games-box pd-lr-b-15'>
+  <view class='games-list '>
+    <view class='games-header flex-between pd-lr-7'>
+      <view class='flex-items-c'>
+        <icon class="iconfont icon-huojian"></icon>
+        <text class='play tit bold'>谁是快枪手</text>
+      </view>
+      <view class='flex-items-c'>
+        <text class='more'>更多好玩</text>
+        <icon class='iconfont icon-gengduo'></icon>
+      </view>
+    </view>
+    <view class='games flex-wrap'>
+      <block wx:for="{{othergames}}">
+        <view class='game flex-direction-c pd-t-15'>
+          <image></image>
+          <view>{{item.name}}</view>
+          <text>{{item.people}}万人在玩</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class='games-box pd-tb-lr-15'>
+  <view class='games-list'>
+    <view class='games-header flex-between pd-lr-7'>
+      <view class='flex-items-c'>
+        <icon class="iconfont icon-bulb"></icon>
+        <text class='play tit bold'>最强男人帮</text>
+      </view>
+      <view class='flex-items-c'>
+        <text class='more'>更多好玩</text>
+        <icon class='iconfont icon-gengduo'></icon>
+      </view>
+    </view>
+    <view class='games flex-wrap'>
+      <block wx:for="{{othergames}}">
+        <view class='game flex-direction-c pd-t-15'>
+          <image></image>
+          <view>{{item.name}}</view>
+          <text>{{item.people}}万人在玩</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+
+<view class='games-box pd-tb-lr-15'>
+  <view class='games-list '>
+    <view class='games-header flex-between pd-lr-7'>
+      <view class='flex-items-c'>
+        <icon class="iconfont icon-xiaolian"></icon>
+        <text class='play tit bold'>那些年玩过的游戏</text>
+      </view>
+      <view class='flex-items-c'>
+        <text class='more'>更多好玩</text>
+        <icon class='iconfont icon-gengduo'></icon>
+      </view>
+    </view>
+    <view class='games flex-wrap'>
+      <block wx:for="{{othergames}}">
+        <view class='game flex-direction-c pd-t-15'>
+          <image></image>
+          <view>{{item.name}}</view>
+          <text>{{item.people}}万人在玩</text>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
+

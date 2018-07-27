@@ -1,0 +1,104 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.flex{
+  display: flex;
+}
+.flex-between{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-direction{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-direction-c{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-items-c{
+  display: flex;
+  align-items: center;
+}
+.flex-items-s{
+  display: flex;
+  align-items: flex-start;
+}
+.flex-wrap{
+  display: flex;
+  flex-wrap: wrap
+}
+.pd-15 {
+  padding: 30rpx
+}
+.pd-t-15{
+  padding-top: 30rpx;
+}
+.pd-b-15{
+  padding-bottom: 30rpx;
+}
+.pd-lr-7 {
+  padding: 0 14rpx;
+}
+.pd-lr-15 {
+  padding: 0 30rpx;
+}
+.pd-tb-15 {
+  padding: 10rpx 0;
+}
+.pd-lr-b-15{
+  padding: 0 10rpx 30rpx;
+}
+.pd-tb-lr-15{
+  padding: 30rpx 10rpx 30rpx
+}
+.tit{
+  font-size: 32rpx;
+}
+.bold{
+  font-weight: bold;
+}
+.more{
+  font-size: 22rpx;
+  color: #999;
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 763710 */
+  src: url('//at.alicdn.com/t/font_763710_3yez9yq7f9o.eot');
+  src: url('//at.alicdn.com/t/font_763710_3yez9yq7f9o.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_763710_3yez9yq7f9o.woff') format('woff'),
+  url('//at.alicdn.com/t/font_763710_3yez9yq7f9o.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_763710_3yez9yq7f9o.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-bulb:before { content: "\e603"; }
+
+.icon-good:before { content: "\e604"; }
+
+.icon-huojian:before { content: "\e612"; }
+
+.icon-gengduo:before { content: "\e620"; }
+
+.icon-xiaolian:before { content: "\e600"; }
+
+.icon-shoubing:before { content: "\e605"; }
